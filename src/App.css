@@ -8,6 +8,10 @@
   --primary-hover-red: #f33501; 
 }
 
+nav {
+  z-index: 1;
+}
+
 body {
   font-family: "Roboto" sans-serif;
 }
@@ -81,13 +85,33 @@ nav ul li {
   color: var(--primary-white);
 }
 
-/*------Typed Text------*/
+/*------Link Button------*/
 
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 2px solid var(--primary-orange);
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;  
 }
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+
+
+
 

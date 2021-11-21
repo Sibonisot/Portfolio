@@ -10,10 +10,11 @@ const Header = () => {
                 <Typed
                 className="typed-text"
                 strings={["Software Developer", "Web Designer", "Software Tester"]}
-                typeSpeed={40}
+                typeSpeed={50}
                 backSpeed={60}
                 loop
                 />
+
                 <a href="#" className="btn-main-offer">Contact Me</a>
 
             </div>
