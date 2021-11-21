@@ -3,7 +3,9 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255,255,255,0)
+  --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501; 
 }
 
 body {
@@ -46,3 +48,46 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-bottom: 0.1875rem solid var(--primary-orange);
 }
+
+.header-wraper {
+  position: relative;
+  background: url(pexels-pixabay-256381.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+
+}
+
+.main-info {
+  display: flex;
+  position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+/*------Typed Text------*/
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/*------Typed Text------*/
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
