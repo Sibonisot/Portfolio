@@ -111,6 +111,19 @@ nav ul li {
   transition: .2s ease-in-out;
 }
 
+.photo-wraper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.about-heading{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
 
 
 

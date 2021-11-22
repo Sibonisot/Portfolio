@@ -14,8 +14,9 @@ const Header = () => {
                 backSpeed={60}
                 loop
                 />
-
-                <a href="#" className="btn-main-offer">Contact Me</a>
+<div className="center-image">
+                <img src= "https://i.ibb.co/1qHPGmP/IMG-0382-2.jpg" className="img-thumbnail" alt="Siboniso" />
+              </div>
 
             </div>
             
