@@ -125,6 +125,55 @@ nav ul li {
 }
 
 
+/***----------------Experience--------------------***/
 
+.experience {
+  text-align: center;
+  padding-bottom: 2em;
+  background:rgb(196, 195, 194);
+}
 
+.experience h1 {
+  color: dark;
+  text-transform: uppercase;
+}
+
+.experience .circle {
+  position: relative;
+  margin: 0.375em auto;
+  background: var(--primary-orange);
+  border-radius: 50%;
+  width: 3.125em;
+  height: 3.125em;
+}
+
+.experience .icon {
+  font-size: 1.4rem;
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.experience .box {
+  height: 16rem;
+  border-bottom: 5px solid var(--primary-orange);
+  padding: 00.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--primary-white);
+}
+
+.experience .box:hover {
+  background: var(--primary-orange);
+  border-bottom: var(--primary-dark);
+}
+
+.experience .box:hover .icon{
+  color: black;
+}
+
+.experience .box:hover .circle{
+  background: var(--primary-white);
+}
 

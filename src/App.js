@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Particles from "react-particles-js";
 import About from './components/About';
+import { Experience } from "./components/Experience";
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         shape: {
           type:"circle",
           stroke: {
-            width: 8,
+            width: 7,
             color: "#f7ab04"
           }
         }
@@ -33,6 +34,7 @@ function App() {
     <Navbar/>
     <Header/>
     <About/>
+    <Experience/>
     </>
   );
 }
