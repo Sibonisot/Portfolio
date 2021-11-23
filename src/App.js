@@ -6,6 +6,8 @@ import Particles from "react-particles-js";
 import About from './components/About';
 import { Experience } from "./components/Experience";
 import { Education } from "./components/Education";
+import Footer from './components/Footer';
+import Contacts from './components/Contacts'
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
     <About/>
     <Experience/>
     <Education/>
+    <Contacts/>
+    <Footer/>
     </>
   );
 }

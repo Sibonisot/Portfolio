@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from "../logo.png";
+import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 /*React fontawesone imports*/
@@ -18,19 +20,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
+              <Link smooth={true} to="Home" className="nav-link" href="#">Home <span className="sr-only"></span></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <Link smooth={true} to="About" className="nav-link" href="#">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Experience</a>
+              <Link smooth={true} to="Experience" className="nav-link" href="#">Experience</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Education</a>
+              <Link smooth={true} to="Education" className="nav-link" href="#">Education</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contacts</a>
+              <Link smooth={true} to="Contacts" className="nav-link" href="#">Contacts</Link>
             </li>
 
             
