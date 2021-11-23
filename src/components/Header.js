@@ -15,7 +15,7 @@ const Header = () => {
                 loop
                 />
 <div className="center-image">
-                <img src= "https://i.ibb.co/1qHPGmP/IMG-0382-2.jpg" className="img-thumbnail" alt="Siboniso" />
+                <img src= "https://i.ibb.co/nLB01CJ/IMG-0382-2.jpg" className="img-thumbnail" alt="Siboniso" />
               </div>
 
             </div>

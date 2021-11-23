@@ -15,7 +15,7 @@ export const Experience = () => {
                            <div className="circle"> <FontAwesomeIcon className="icon" icon={faCode} size="3x" /></div>
                             <h3>Languages</h3>
                             <p>C#, HTML5/CSS, VB.NET, Python,
-                                PHP, Java, JavaScript, SQL, Oracle Database</p>
+                                PHP, Java, JavaScript</p>
 
                         </div>
 
@@ -24,8 +24,7 @@ export const Experience = () => {
                         <div className="box">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faCog} size="3x" /></div>
                             <h3>Technologies Used</h3>
-                            <p>C#, HTML5/CSS, VB.NET, Python,
-                                PHP, Java, JavaScript, SQL, Oracle Database</p>
+                            <p>ASP.Net Core, Visual Studio, Android Studio, React JS, Netbeans, Pycharm, Intelli J</p>
 
                         </div>
 
@@ -34,8 +33,7 @@ export const Experience = () => {
                         <div className="box">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faBug} size="3x" /></div>
                             <h3>Software Testing</h3>
-                            <p>C#, HTML5/CSS, VB.NET, Python,
-                                PHP, Java, JavaScript, SQL, Oracle Database</p>
+                            <p>Rest Assured API, Jenkins, Cucumber, Selenium, Postman</p>
                         </div>
 
                     </div>
@@ -43,14 +41,15 @@ export const Experience = () => {
                         <div className="box">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faCodeBranch} size="3x" /></div>
                             <h3>Version Control</h3>
-                            <p>C#, HTML5/CSS, VB.NET, Python,
-                                PHP, Java, JavaScript, SQL, Oracle Database</p>
+                            <p>Git Bash, Bitbucket, Github</p>
 
                         </div>
                     </div>
                 </div>
 
             </div>
+
+        
 
         </div>
 

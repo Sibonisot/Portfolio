@@ -6,6 +6,7 @@ import Particles from "react-particles-js";
 import About from './components/About';
 import { Experience } from "./components/Experience";
 import { Education } from "./components/Education";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         shape: {
           type:"circle",
           stroke: {
-            width: 7,
+            width: 6,
             color: "#f7ab04"
           }
         }
@@ -36,6 +37,7 @@ function App() {
     <About/>
     <Experience/>
     <Education/>
+    <Footer/>
     </>
   );
 }

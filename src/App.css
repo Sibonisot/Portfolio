@@ -37,7 +37,7 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+  
 }
 
 .navbar-brand {
@@ -242,4 +242,26 @@ nav ul li {
 margin-top: 00.3125rem;
 color: dark;
 font-weight: 600;
+}
+
+/****************Footer******************/
+.footer {
+  background: #a0a0a0;
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
